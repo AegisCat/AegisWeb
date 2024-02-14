@@ -1,4 +1,39 @@
+@font-face {
+  font-family: "basiic";
+  src: url("Assets/Fonts/Cherish.ttf");
+}
+
 body {
   background-image: url("Assets/Backgrounds/movestarbackground.gif");
   background-repeat: repeat;
+}
+
+header {
+  top: 50px;
+  left: 137px;
+  padding: 40px 450px;
+  color: white;
+  font-family: basiic;
+  font-weight: 900;
+  text-shadow: 2px 2px 5px purple;
+  text-align: center;
+  transform: translate(0px, 20px);
+}
+
+.layout {
+  background: var(--layout);
+  background-repeat: no-repeat;
+  width: 1125px;
+  height: 740px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.blinkies {
+  top: 240px;
+  left: 110px;
+  width: 135px;
+  height: 185px;
+  padding: 10px;
+  margin: 1px;
 }
